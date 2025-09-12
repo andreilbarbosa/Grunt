@@ -1,0 +1,18 @@
+{
+  "name": "gruntjs",
+  "version": "1.0.0",
+  "description": "Atividade de acompanhamento do módulo Automatize tarefas com o Grunt",
+  "main": "index.js",
+  "scripts": {
+    "grunt": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrei Barbosa",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-concurrent": "^3.0.0",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-sass": "^2.0.0"
+  }
+}
