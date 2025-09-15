@@ -36,3 +36,15 @@ input {
   outline: none;
   border-bottom: 4px solid #fff;
 }
+.resultado {
+  padding: 16px;
+  margin-top: 120px;
+  border: 8px dotted #fff;
+  border-radius: 12px;
+  display: none;
+}
+.resultado span {
+  font-weight: bold;
+  font-size: 3em;
+  display: block;
+}
