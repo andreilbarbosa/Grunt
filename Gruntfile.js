@@ -19,6 +19,6 @@ module.exports = function(grunt){
     })
     grunt.loadNpmTasks('grunt-contrib-less');
 
+    grunt.registerTask('build', ['less:production']);
     grunt.registerTask('default', ['less:development']);
-    grunt.registerTasks('build', ['less:production']);
 }
