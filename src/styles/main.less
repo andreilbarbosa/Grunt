@@ -2,6 +2,8 @@
 @fonteTitulo: Lobster, cursive;
 @corTexto: #fff;
 @corFundo: #eb3b5a;
+@corTextoBotao: #000;
+@corFundoBotao: #f7b731;
 
 body{
     background-color: @corFundo;
@@ -11,4 +13,37 @@ body{
 
 h1{
     font-family: @fonteTitulo;
+}
+
+main{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+button{
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: @fontePrincipal;
+    margin-top: 16px;
+    border-radius: 8px;
+    color: @corTextoBotao;
+    background-color: @corFundoBotao;
+}
+
+input{
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid #fff;
 }
