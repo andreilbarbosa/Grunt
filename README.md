@@ -1,4 +1,4 @@
-## Projeto de acompanhamento das aulas e prática do módulo Introdução ao Grunt
+## Projeto de acompanhamento das aulas e prática do módulo Introdução ao Grunt 🐗
 ### Curso Front End Developer - EBAC 
 
 Este projeto foi criado para acompanhar as aulas praticando o que foi ensinado e, ao mesmo tempo, aplicar boas práticas de commit.
